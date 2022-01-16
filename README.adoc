@@ -1,0 +1,18 @@
+= Bootstrap latest version redirection
+:author: David Wolf
+:email: david@wolf.gdn
+:bootstrap-version: v5.1
+
++++
+<p align=center>
+    <img src="./icons/bootstrap.svg" alt="Bootstrap" width="64" height="64">
+</p>
++++
+
+Chromium browser extension to redirect all your request to Bootstrap documentation of versions lower than {bootstrap-version} to the docs of Bootstrap {bootstrap-version}.
+
+For example if you just ended on the documentation pages of Bootstrap v4.0, you will always be redirected to the documentation of Bootstrap {bootstrap-version}.
+
+---
+
+Icon credits to https://icons.getbootstrap.com[Bootstrap Icons].
