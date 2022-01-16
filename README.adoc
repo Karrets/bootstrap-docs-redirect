@@ -1,6 +1,7 @@
 = Latest Bootstrap Documentation Redirect
 :author: David Wolf
 :email: david@wolf.gdn
+:icons: font
 :bootstrap-version: v5.1
 
 +++
@@ -12,6 +13,8 @@
 Chromium browser extension to redirect all your request to Bootstrap documentation of versions lower than {bootstrap-version} to the docs of Bootstrap {bootstrap-version}.
 
 For example if you just ended on the documentation pages of Bootstrap v4.0, you will always be redirected to the documentation of Bootstrap {bootstrap-version}.
+
+NOTE: I have written an article about the motivation of this extension: https://david.wolf.gdn/how-to-always-and-automatically-redirect-to-the-latest-bootstrap-documentation-chromium-extension/[«How to always and automatically redirect to the latest Bootstrap documentation»].
 
 == Permission justification
 === webRequest justification
