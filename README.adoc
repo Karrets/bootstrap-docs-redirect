@@ -1,4 +1,4 @@
-= Bootstrap latest version redirection
+= Latest Bootstrap Documentation Redirect
 :author: David Wolf
 :email: david@wolf.gdn
 :bootstrap-version: v5.1
@@ -12,6 +12,17 @@
 Chromium browser extension to redirect all your request to Bootstrap documentation of versions lower than {bootstrap-version} to the docs of Bootstrap {bootstrap-version}.
 
 For example if you just ended on the documentation pages of Bootstrap v4.0, you will always be redirected to the documentation of Bootstrap {bootstrap-version}.
+
+== Permission justification
+=== webRequest justification
+`webRequest` is needed to check if the requested URL is requestig an outdated Bootstrap documentation page, to be able to redirect those requests.
+
+=== webRequestBlocking justification
+`webRequestBlocking` is needed to make the request synchronous to be able to redirect it.
+
+=== Host permission justification
+`*://getbootstrap.com/docs/*` is needed, as this is the documentation host of Bootstrap. Traffic to old documentations will be redirect to new ones.`
+
 
 ---
 

@@ -1,5 +1,5 @@
 {
-    "name": "Bootstrap latest version redirection",
+    "name": "Latest Bootstrap Documentation Redirect",
     "description": "Automatically redirect to the documentation of the latest Bootstrap version",
     "version": "0.0.2",
     "icons": {
