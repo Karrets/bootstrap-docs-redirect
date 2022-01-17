@@ -4,9 +4,17 @@
 :icons: font
 :bootstrap-version: v5.1
 
+// +++
+// <p align=center>
+//     <img src="./images/bootstrap.svg" alt="Bootstrap" width="64" height="64">
+// </p>
+// +++
+
 +++
 <p align=center>
-    <img src="./icons/bootstrap.svg" alt="Bootstrap" width="64" height="64">
+    <a href="https://chrome.google.com/webstore/detail/latest-bootstrap-document/pbfaompnkhilkpbobkihjfhilpikepdk">
+        <img src="./images/chrome-web-store.png">
+    </a>
 </p>
 +++
 
