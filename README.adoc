@@ -10,19 +10,13 @@
 // </p>
 // +++
 
-+++
-<p align=center>
-    <a href="https://chrome.google.com/webstore/detail/latest-bootstrap-document/pbfaompnkhilkpbobkihjfhilpikepdk">
-        <img src="./images/chrome-web-store.png">
-    </a>
-</p>
-+++
+NOTE: I have written an article about the motivation of this extension: https://david.wolf.gdn/how-to-always-and-automatically-redirect-to-the-latest-bootstrap-documentation-chromium-extension/[«How to always and automatically redirect to the latest Bootstrap documentation»].
 
 Chromium browser extension to redirect all your request to Bootstrap documentation of versions lower than {bootstrap-version} to the docs of Bootstrap {bootstrap-version}.
 
 For example if you just ended on the documentation pages of Bootstrap v4.0, you will always be redirected to the documentation of Bootstrap {bootstrap-version}.
 
-NOTE: I have written an article about the motivation of this extension: https://david.wolf.gdn/how-to-always-and-automatically-redirect-to-the-latest-bootstrap-documentation-chromium-extension/[«How to always and automatically redirect to the latest Bootstrap documentation»].
+image::./images/chrome-web-store.png[Chrome Web Store, link='https://chrome.google.com/webstore/detail/latest-bootstrap-document/pbfaompnkhilkpbobkihjfhilpikepdk']
 
 == Permission justification
 === webRequest justification
