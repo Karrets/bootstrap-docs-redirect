@@ -18,7 +18,7 @@ For example if you just ended on the documentation pages of Bootstrap v4.0, you 
 
 image::./images/chrome-web-store.png[Chrome Web Store, link='https://chrome.google.com/webstore/detail/latest-bootstrap-document/pbfaompnkhilkpbobkihjfhilpikepdk']
 
-== Permission justification
+== Permission justifications
 === webRequest justification
 `webRequest` is needed to check if the requested URL is requestig an outdated Bootstrap documentation page, to be able to redirect those requests.
 
@@ -26,7 +26,7 @@ image::./images/chrome-web-store.png[Chrome Web Store, link='https://chrome.goog
 `webRequestBlocking` is needed to make the request synchronous to be able to redirect it.
 
 === Host permission justification
-* `*://getbootstrap.com/docs/*` is needed, as this is the documentation host of Bootstrap. Traffic to old documentations will be redirect to new ones.`
+`*://getbootstrap.com/docs/*`:: Is needed, as this is the documentation host of Bootstrap. Traffic to old documentations will be redirect to new ones.
 
 
 ---
