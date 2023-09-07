@@ -1,34 +1,33 @@
-= Latest Bootstrap Documentation Redirect
-:author: David Wolf
-:email: david@wolf.gdn
+= Latest Bootstrap Documentation Redirect (Foxified)
+:author_1: David Wolf
+:email_1: david@wolf.gdn
+:author_2: Cameron Peterson
+:email_2: kodi@kodirex.space
 :icons: font
-:bootstrap-version: v5.1
+:bootstrap-version: v5.4
 
-// +++
-// <p align=center>
-//     <img src="./images/bootstrap.svg" alt="Bootstrap" width="64" height="64">
-// </p>
-// +++
++++
+<p align=center>
+    <img src="./images/bootstrap.svg" alt="Bootstrap" width="64" height="64">
+</p>
++++
 
-NOTE: I have written an article about the motivation of this extension: https://david.wolf.gdn/how-to-always-and-automatically-redirect-to-the-latest-bootstrap-documentation-chromium-extension/[«How to always and automatically redirect to the latest Bootstrap documentation»].
+NOTE: This is a modified version of David Wolf's extension for chrome based browsers with compatibility for firefox, not much needed to be done to work with the advent of the 'WebExtensions' api.
 
-Chromium browser extension to redirect all your request to Bootstrap documentation of versions lower than {bootstrap-version} to the docs of Bootstrap {bootstrap-version}.
+Firefox browser extension to redirect all your request to Bootstrap documentation of versions lower than {bootstrap-version} to the docs of Bootstrap {bootstrap-version}.
 
 For example if you just ended on the documentation pages of Bootstrap v4.0, you will always be redirected to the documentation of Bootstrap {bootstrap-version}.
 
-image::./images/chrome-web-store.png[Chrome Web Store, link='https://chrome.google.com/webstore/detail/latest-bootstrap-document/pbfaompnkhilkpbobkihjfhilpikepdk']
-
 == Permission justifications
 === webRequest justification
-`webRequest` is needed to check if the requested URL is requestig an outdated Bootstrap documentation page, to be able to redirect those requests.
+`webRequest` is needed to check if the requested URL is requesting an outdated Bootstrap documentation page, to be able to redirect those requests.
 
 === webRequestBlocking justification
 `webRequestBlocking` is needed to make the request synchronous to be able to redirect it.
 
 === Host permission justification
-`*://getbootstrap.com/docs/*`:: Is needed, as this is the documentation host of Bootstrap. Traffic to old documentations will be redirect to new ones.
+`*://getbootstrap.com/docs/*`:: Is needed, as this is the documentation host of Bootstrap. Traffic to old documentations will be redirected to new ones.
 
-
----
+'''
 
 Icon credits to https://icons.getbootstrap.com[Bootstrap Icons].

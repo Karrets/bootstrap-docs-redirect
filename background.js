@@ -7,7 +7,7 @@
  * @return {object}
  */
 function redirect(requestDetails) {
-    const latestVersion = '5.1'
+    const latestVersion = '5.3'
     const regex = /\/([0-9]+\.[0-9]+)\//gm
     const requestedVersion = regex.exec(requestDetails.url)
     if (requestedVersion && requestedVersion[1] !== latestVersion) {
@@ -19,7 +19,7 @@ function redirect(requestDetails) {
     }
 }
 
-chrome.webRequest.onBeforeRequest.addListener(
+browser.webRequest.onBeforeRequest.addListener(
     redirect,
     {
         urls: [
