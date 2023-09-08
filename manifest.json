@@ -19,9 +19,13 @@
     "background": {
         "scripts": ["background.js"]
     },
+    "options_ui": {
+        "page": "options.html"
+    },
     "permissions": [
         "webRequest",
         "webRequestBlocking",
-        "*://getbootstrap.com/docs/*"
+        "*://getbootstrap.com/docs/*",
+        "storage"
     ]
 }

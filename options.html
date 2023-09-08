@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap-Docs-Redirect</title>
+    <style>
+        body {
+            font-family: "Droid Sans", sans-serif;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            gap: 10px;
+        }
+
+        label {
+            margin-right: 5px;
+        }
+
+        input[type=text] {
+            width: 50px;
+            text-align: right;
+            padding: 5px;
+        }
+
+        button[type=submit] {
+            width: 100%;
+            height: 100%;
+            font-size: large;
+            text-align: center;
+        }
+
+        #saved-confirm {
+            visibility: hidden;
+        }
+
+        .fadeOut {
+            animation: confirmation 2s ease-in-out;
+        }
+
+        @keyframes confirmation {
+            0% {
+                visibility: hidden;
+                opacity: 0;
+            }
+            1% {
+                visibility: visible;
+                opacity: 1;
+            }
+            99% {
+                visibility: visible;
+                opacity: 0;
+            }
+            100% {
+                visibility: hidden;
+                opacity: 0;
+            }
+        }
+
+        #error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<form id="settings-form">
+    <div>
+        <label for="bs-version">Bootstrap Version: </label>
+        <input id="bs-version" type="text" maxlength="4" placeholder="5.3">
+    </div>
+    <button id="submit-button" type="submit">Save</button>
+    <p id="saved-confirm">Saved!</p>
+    <p id="error" hidden="hidden"></p>
+</form>
+<script src="options.js" type="application/javascript"></script>
+</body>
+</html>
