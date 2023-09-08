@@ -14,9 +14,11 @@
 
 NOTE: This is a modified version of David Wolf's extension for Chrome based browsers with compatibility for Firefox, not much needed to be done to work with the advent of the 'WebExtensions' api.
 
-Firefox browser extension to redirect all requests to Bootstrap documentation of versions lower than {bootstrap-version} to the docs of Bootstrap {bootstrap-version}.
+Firefox browser extension to redirect all requests to Bootstrap documentation of versions lower than {bootstrap-version} to Bootstrap version {bootstrap-version}.
 
 For example if you wound up on a documentation page of Bootstrap v4.0, you will be redirected to the documentation of Bootstrap {bootstrap-version}.
+
+Alternatively, you can configure an alternate version to update to, helpful if you are working on a project using an earlier version, or if this extension is ever out of date.
 
 == Permission justifications
 === webRequest justification
